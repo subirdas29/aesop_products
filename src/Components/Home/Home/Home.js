@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import ClickAndCollect from '../ClickAndCollect/ClickAndCollect';
+import FirstCardSection from '../FirstCardSection/FirstCardSection';
 import Navbar from '../Navbar/Navbar';
 import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
 
@@ -11,6 +12,7 @@ const Home = () => {
             <ClickAndCollect></ClickAndCollect>
             <Navbar></Navbar>
             <Banner></Banner>
+            <FirstCardSection></FirstCardSection>
         </div>
     );
 };
