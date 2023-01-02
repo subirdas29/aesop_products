@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Button from './Button';
+
 
 const Navbar = () => {
     let Links =[
@@ -40,7 +40,7 @@ const Navbar = () => {
 </li> 
         
       </ul>
-      <div className='font-semibold cursor-pointer md:flex md:text-sm sm:hidden'>
+      <div className='font-semibold cursor-pointer hidden md:flex md:text-sm '>
       <h2 className='mx-4'>Log in</h2>
       <h2>Cart</h2>
       </div>
