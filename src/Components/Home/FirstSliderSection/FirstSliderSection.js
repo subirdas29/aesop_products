@@ -1,6 +1,11 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import img1 from '../../../assets/Images/FirstSliderImages/product-1.png';
+import img2 from '../../../assets/Images/FirstSliderImages/product-2.png';
+import img3 from '../../../assets/Images/FirstSliderImages/product-3.png';
+import img4 from '../../../assets/Images/FirstSliderImages/product-4.png';
+import img5 from '../../../assets/Images/FirstSliderImages/product-5.png';
 
 // Import Swiper styles
 import "swiper/css";
@@ -8,7 +13,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// import "./styles.css";
+import "./styles.css";
 
 // import required modules
 import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
@@ -16,56 +21,82 @@ import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
 export default function FirstSliderSection() {
   return (
     <>
-      <Swiper
-      spaceBetween={50}
-        slidesPerView={3}
+     <Swiper
+        slidesPerView={3.25}
         centeredSlides={false}
-        // slidesPerGroupSkip={1}
-        grabCursor={true}
+        slidesPerGroupSkip={1}
+      
         // keyboard={{
         //   enabled: true,
         // }}
         breakpoints={{
+            1000:
+            {
+                slidesPerView: 3.25,
+                slidesPerGroup: 3.25, 
+            },
           769: {
             slidesPerView: 2,
             slidesPerGroup: 2,
           },
+          484: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          
         }}
         scrollbar={true}
         navigation={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        modules={[Keyboard, Scrollbar, Navigation, Pagination]}
+      
+        modules={[Keyboard, Scrollbar, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide className="mx-4 ">
-          <img src="https://cdn.magloft.com/github/swiper/images/page-001.jpg" className="h-[300px]"/>
+        <SwiperSlide >
+          <img src={img1}/>
+          <p>
+          Geranium Leaf Duet
+          </p>
+          <p>
+          A gentle cleanser and aromatic balm
+          </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-002.jpg" className="h-[300px]" />
+          <img src={img2} />
+          <p>
+          Resurrection Duet
+          </p>
+          <p>
+          Cleanse and nourish the hands
+          </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-003.jpg" />
+          <img src={img3} />
+          <p>
+          Resurrection Duet
+          </p>
+          <p>
+          A sumptuous pairing for hands
+          </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-004.jpg" />
+          <img src={img4} />
+          <p>
+          Resurrection Hand Purifying Duet
+          </p>
+          <p>
+          A citrus,woody,herbaceous duo
+          </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-005.jpg" />
+          <img src={img5}/>
+          <p>
+          You & Your Dog Duo
+          </p>
+          <p>
+          A pair of aromatic gel cleansers
+          </p>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-006.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-007.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-008.jpg" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://cdn.magloft.com/github/swiper/images/page-009.jpg" />
-        </SwiperSlide>
+      
       </Swiper>
     </>
   );
