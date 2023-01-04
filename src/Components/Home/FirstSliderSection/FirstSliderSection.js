@@ -26,14 +26,12 @@ export default function FirstSliderSection() {
         centeredSlides={false}
         slidesPerGroupSkip={1}
       
-        // keyboard={{
-        //   enabled: true,
-        // }}
+        
         breakpoints={{
             1000:
             {
-                slidesPerView: 3.25,
-                slidesPerGroup: 3.25, 
+                slidesPerView: 3.20,
+                slidesPerGroup: 3.20, 
             },
           769: {
             slidesPerView: 2,
@@ -51,12 +49,12 @@ export default function FirstSliderSection() {
         modules={[Keyboard, Scrollbar, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide >
+        <SwiperSlide>
           <img src={img1}/>
-          <p>
+          <p className="text-sm">
           Geranium Leaf Duet
           </p>
-          <p>
+          <p className="text-sm">
           A gentle cleanser and aromatic balm
           </p>
         </SwiperSlide>

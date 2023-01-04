@@ -20,40 +20,43 @@ body {
   
 }
 
+
 .swiper-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  
   height: 100%;
+ 
 }
+
 
 .swiper-slide img {
   display: flex;
   width: 100%;
-  
+ 
 }
 .swiper-scrollbar-drag
 {
     /* width: 30% !important; */
-   
     background: rgba(0,0,0,0.75)!important;
 }
 .swiper-scrollbar-horizontal
 {
     width: 90% !important;
     left: 5%!important;
-    color: #CCCBC2;
+    background: #7c877f !important;
     height: 3px !important;
     bottom: 1px !important;
-    margin-top: 10px;
+    margin: 40px 0;
     position: static !important;
     z-index: 0 !important;
+    margin-left: 80px !important;
 }
 .swiper-wrapper{
  
   align-items: baseline;
- 
+  
 }
 .swiper-button-prev{
     background-color: #333333;
