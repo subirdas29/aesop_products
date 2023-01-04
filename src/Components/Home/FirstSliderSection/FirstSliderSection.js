@@ -21,11 +21,14 @@ import { Keyboard, Scrollbar, Navigation, Pagination } from "swiper";
 export default function FirstSliderSection() {
   return (
     <>
+    
      <Swiper
         slidesPerView={3.25}
         centeredSlides={false}
+        spaceBetween={10}
         slidesPerGroupSkip={1}
-      
+        speed={600}
+        
         
         breakpoints={{
             1000:

@@ -1,7 +1,7 @@
 #app { height: 100% }
 html,
 body {
-  /* position: relative; */
+
   height: 100%;
 }
 
@@ -40,18 +40,25 @@ body {
 {
     /* width: 30% !important; */
     background: rgba(0,0,0,0.75)!important;
+    width: 300px !important;
+ 
 }
+
+
 .swiper-scrollbar-horizontal
 {
-    width: 90% !important;
-    left: 5%!important;
+    
     background: #7c877f !important;
-    height: 3px !important;
+    height: 2px !important;
     bottom: 1px !important;
     margin: 40px 0;
     position: static !important;
     z-index: 0 !important;
-    margin-left: 80px !important;
+    margin-right: 80px !important; 
+    margin-left:  80px !important;
+}
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+width: auto !important;
 }
 .swiper-wrapper{
  
@@ -85,31 +92,6 @@ body {
 }
 
 @media only screen and (min-width: 769px) {
-  /* .swiper-slide:first-child {
-    transition: transform 100ms;
-  }
-
-  .swiper-slide:first-child img {
-    transition: box-shadow 500ms;
-  }
-
-  .swiper-slide.swiper-slide-active:first-child {
-    transform: translateX(50%);
-    z-index: 2;
-  }
-
-  .swiper-slide.swiper-slide-active:first-child img {
-    box-shadow: 0px 32px 80px rgba(0, 0, 0, 0.35);
-  } */
-
-   /* .swiper-slide:nth-child(2) {
-    transition: transform 100ms;
-  } 
-
-  .swiper-slide.swiper-slide-next:nth-child(2) {
-    transform: translateX(55%);
-    z-index: 1;
-  } */
 
   .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
     transform: translateX(-50%);
