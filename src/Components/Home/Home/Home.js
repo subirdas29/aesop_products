@@ -8,6 +8,7 @@ import GiftFinderSection from '../GiftFinderSection/GiftFinderSection';
 import Navbar from '../Navbar/Navbar';
 import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
 import SecondCardSection from '../SecondCardSection/SecondCardSection';
+import StoreLocator from '../StoreLocator/StoreLocator';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <SecondCardSection></SecondCardSection>
             <CorporateGifts></CorporateGifts>
             <FirstSliderSection></FirstSliderSection>
+            <StoreLocator></StoreLocator>
         </div>
     );
 };

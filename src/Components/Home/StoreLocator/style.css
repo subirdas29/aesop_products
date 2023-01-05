@@ -71,7 +71,8 @@ position: sticky;
     background-color: #333333;
     height: 80px !important;
     width: 80px !important;
-    
+    position: absolute;
+    top:45%;
     left: 0;
 }
 .swiper-button-prev:after{
@@ -82,6 +83,8 @@ position: sticky;
     background-color: #333333;
     height: 80px !important;
     width: 80px !important;
+    position: absolute;
+    top:45%;
     right: 0;
 }
 .swiper-button-next:after{
@@ -90,7 +93,7 @@ position: sticky;
 }
 .swiper-button-disabled
 {
-    opacity: 0 !important;
+    opacity: 100 !important;
 }
 
 @media only screen and (min-width: 769px) {
