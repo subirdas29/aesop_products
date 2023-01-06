@@ -25,7 +25,7 @@ const Navbar = () => {
       text-gray-800'>
         
       </div> */}
-        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-[190px] ':'top-[-490px]'}`}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white md:z-auto z-index-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-6000 ease-in ${open ? 'top-[180px] ':'top-[-600px]'}`}>
         {
           Links.map((link)=>(
             <li key={link.name} className='md:ml-8 text-sm font-semibold md:my-0 my-7'>
@@ -57,35 +57,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-{/* <li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Skin Care</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Body & Hand</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Hair</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Fragrance</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Home</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Kits & Travel</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Gifts</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Read</a>
-</li>
-<li className="flex">
-<a rel="noopener noreferrer" href="#" className="flex items-center px-2 -mb-1 border-b-2 dark:border-transparent text-sm">Stores</a>
-</li>
-<li className='flex'>
-<button type="submit" title="Search" className="p-1 text-xl">
-<FaSearch className='text-[#666666]'/>
-    </button>
-</li> */}

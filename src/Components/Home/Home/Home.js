@@ -4,6 +4,7 @@ import ClickAndCollect from '../ClickAndCollect/ClickAndCollect';
 import CorporateGifts from '../CorporateGifts/CorporateGifts';
 import FirstCardSection from '../FirstCardSection/FirstCardSection';
 import FirstSliderSection from '../FirstSliderSection/FirstSliderSection';
+import Footer from '../Footer/Footer';
 import GiftFinderSection from '../GiftFinderSection/GiftFinderSection';
 import Navbar from '../Navbar/Navbar';
 import PrivacyPolicy from '../PrivacyPolicy/PrivacyPolicy';
@@ -23,6 +24,7 @@ const Home = () => {
             <CorporateGifts></CorporateGifts>
             <FirstSliderSection></FirstSliderSection>
             <StoreLocator></StoreLocator>
+            <Footer></Footer>
         </div>
     );
 };
