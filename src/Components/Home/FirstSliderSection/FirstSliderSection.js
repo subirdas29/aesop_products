@@ -13,7 +13,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import "./styles.css";
+import "./FirstSliderSection.module.css";
 
 // import required modules
 import { Keyboard, Scrollbar, Navigation } from "swiper";

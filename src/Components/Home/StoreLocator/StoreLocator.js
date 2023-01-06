@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./style.css";
+import "./StoreLocator.module.css";
 
 // import required modules
 import { Navigation, Scrollbar } from "swiper";
