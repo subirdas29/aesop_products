@@ -1,30 +1,36 @@
 import React from 'react';
-import { FaArrowRight,FaInstagram } from "react-icons/fa";
+import { FaArrowRight,FaInstagram,FaTwitter,FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
-            <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100">
-	<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
-		<div className="lg:w-1/3">
-			<div className='flex items-center relative border border-1 mr-6 mb-4'>
+            <footer className="  bg-[#252525] dark:text-gray-100">
+	<div className="flex flex-col justify-between  py-10 lg:mx-auto  lg:flex-row lg:space-y-0">
+		<div className="lg:w-2/5 mx-6">
+			<div className='flex items-center relative border border-1 mb-4 '>
             <input className="bg-transparent py-2 px-4 w-full" placeholder="Email address"/><FaArrowRight className='absolute right-2 hover:cursor-pointer' type='submit'/>
             </div>
 				<div className='flex items-start'>
-                <input type="checkbox"  className="mr-4 flex mt-1 bg-transparent" />
-                <span className="text-sm font-normal leading-6">
-Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <a href='' className='hover:underline'>privacy policy</a> </span>
+                <input type="checkbox"  className=" flex  mt-1 bg-transparent" />
+                <span className="text-sm ml-3 font-normal leading-6 sm:d-none">
+Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <span className='inline flex items-center'>
+<a href='' className='underline'>privacy policy </a><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</span>
+	
+	 </span>
                 </div>
 
-                <div className='mt-20 mr-6'>
-                 <p className='mb-6'>Sustainability</p>
+                <div className='mt-[138px] sm:hidden lg:block space-y-3'>
+                 <p className=''>Sustainability</p>
                  <div className='border border-1 '></div>
-                 <p className='mt-6 leading-6'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
+                 <p className=' leading-6'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
                 </div>
 			
 		</div>
-		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
-			<div className="space-y-3 px-6">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Orders and support</h3>
+		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-3 sm:mt-16 lg:mt-10">
+			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6">
+				<h3 className="dark:text-gray-50">Orders and support</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">
 					<li className='pt-2'>
@@ -59,8 +65,8 @@ Subscribe to receive communications from Aesop about our products and services. 
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3 px-6">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Services</h3>
+			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6">
+				<h3 className=" dark:text-gray-50 ">Services</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">
 					<li className='pt-2'>
@@ -80,8 +86,8 @@ Subscribe to receive communications from Aesop about our products and services. 
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3 px-6">
-				<h3 className="uppercase dark:text-gray-50">Location preferences</h3>
+			<div className="space-y-3 lg:pl-2 lg:pr-6 sm:pl-6 sm:pr-6">
+				<h3 className="dark:text-gray-50 ">Location preferences</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">
 					<li className='pt-2'>
@@ -104,8 +110,13 @@ Subscribe to receive communications from Aesop about our products and services. 
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3 px-6">
-				<h3 className="uppercase dark:text-gray-50">About</h3>
+			<div className='sm:block lg:hidden space-y-3 lg:pl-2 lg:pr-4 sm:pl-6'>
+                 <p className=''>Sustainability</p>
+                 <div className='border border-1 '></div>
+                 <p className=' leading-6 pt-2'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
+                </div>
+			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6">
+				<h3 className="dark:text-gray-50">About</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">
 				<li className='pt-2'>
@@ -133,8 +144,8 @@ Subscribe to receive communications from Aesop about our products and services. 
 
 
 			</div>
-			<div className="space-y-3 px-6">
-				<h3 className="uppercase dark:text-gray-50">Social media</h3>
+			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6 sm:hidden lg:block">
+				<h3 className="dark:text-gray-50 ">Social media</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">
 				<li className='pt-2 flex items-center'>
@@ -199,10 +210,13 @@ Subscribe to receive communications from Aesop about our products and services. 
 			</div> */}
 		</div>
 	</div>
-	<div className='flex'>
-	<div className="py-6 text-sm text-center dark:text-gray-400">© 1968 Company Co. All rights reserved.</div>
-	<div>
-		<FaInstagram/>
+	<div className='border border-1 '></div>
+	<div className='flex justify-between items-center ml-6 pr-6'>
+	<div className="py-6 text-lg text-center ">© Aesop</div>
+	<div className='flex lg:hidden'>
+		<FaInstagram className='w-6 h-6'/>
+		<FaTwitter className='mx-10 w-6 h-6'/>
+		<FaLinkedin className='w-6 h-6'/>
 	</div>
 	</div>
 </footer>
