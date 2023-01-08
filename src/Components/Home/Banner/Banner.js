@@ -13,7 +13,7 @@ const Banner = () => {
           </div>
           <div className=" w-full  lg:w-1/2 xl:w-1/2 flex lg:px-10 lg:py-28 xl:px-10 xl:py-28">
             <img className='w-50 h-14 lg:pr-10 hidden lg:block xl:block'src={img}/>
-          <div className='p-28 lg:p-0 xl:p-0'>
+          <div className='p-28 lg:p-0 lg:pt-4 xl:p-0 xl:pt-4'>
           <h1 className="text-3xl text-[#333333] font-medium">Down to the wire</h1>
            <p className='my-6 text-normal'>From humble gestures to more elaborate offerings, an Aesop gift can still be purchased in time for festive celebrations.</p>
           
