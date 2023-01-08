@@ -4,6 +4,7 @@ import img from '../../../assets/Images/aesoplogo.png'
 
 
 const Navbar = () => {
+  
     let Links =[
         {name:"Skin Care",link:"/"},
         {name:"Body & Hand",link:"/"},
@@ -19,14 +20,15 @@ const Navbar = () => {
     
     return (
         <div>
-         <div className='shadow-md w-full top-0 left-0'>
-      <div className='flex items-center md:justify-between bg-white py-6 md:px-10 px-7'>
+         <div className=' w-full top-0 left-0 relative z-50'>
+      <div className='flex items-center md:justify-between
+      sm:bg-transparent  md:bg-white lg:bg-white xl:bg-white py-6 md:px-10 px-7 '>
         
       {/* <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
         
       </div> */}
-        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white z-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-6000 ease-in ${open ? 'top-[175px] ':'top-[-600px]'} `}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-6000 ease-in ${open ? 'top-[80px] ':'top-[-900px]'} `}>
         {
           Links.map((link)=>(
             <li key={link.name} className=' md:border-0 md:ml-7 text-sm font-medium md:my-0 my-7  sm:block md:hidden lg:block xl:block'>

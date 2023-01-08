@@ -4,12 +4,12 @@ import img from '../../../assets/Images/aesoplogo.png'
 import { FaArrowRight } from 'react-icons/fa';
 const Banner = () => {
     return (
-        <div className="bg-[#D8C19E] ">
+        <div className="bg-[#D8C19E] z-10 relative top-[-80px] md:static">
           <div className='flex flex-col lg:flex-row-reverse xl:flex-row-reverse '>
           
         
         <div className='w-full  lg:w-1/2 xl:w-1/2  flex justify-end z-index-0 '><img className='w-full h-1/2 lg:h-full xl:h-full relative' src='https://i.ibb.co/xsjxkb4/banner-hand-book.jpg'/>
-        <img className='w-30 h-8 lg:pr-10 block absolute left-10 bottom-80 lg:hidden xl:hidden'src={img}/>
+        <img className='w-30 h-8 lg:pr-10 block absolute left-10 bottom-80 hidden md:block lg:hidden xl:hidden'src={img}/>
           </div>
           <div className=" w-full  lg:w-1/2 xl:w-1/2 flex lg:px-10 lg:py-28 xl:px-10 xl:py-28">
             <img className='w-50 h-14 lg:pr-10 hidden lg:block xl:block'src={img}/>
