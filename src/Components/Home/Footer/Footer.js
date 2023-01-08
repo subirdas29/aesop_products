@@ -7,10 +7,10 @@ const Footer = () => {
 	<div className="flex flex-col justify-between  py-10 lg:mx-auto  lg:flex-row lg:space-y-0">
 		<div className="lg:w-2/5 mx-6">
 			<div className='flex items-center relative border border-1 mb-4 '>
-            <input className="bg-transparent py-2 px-4 w-full" placeholder="Email address"/><FaArrowRight className='absolute right-2 hover:cursor-pointer' type='submit'/>
+            <input className="bg-transparent py-2 px-4 text-xl w-full placeholder:text-white placeholder:text-xl focus:placeholder:opacity-0" placeholder="Email address"/><FaArrowRight className='absolute right-2 hover:cursor-pointer' type='submit'/>
             </div>
 				<div className='flex items-start'>
-                <input type="checkbox"  className=" flex  mt-1 bg-transparent" />
+                <input type="checkbox"  className=" checked:accent-transparent border border-1 flex  mt-1 accent-transparent" />
                 <span className="text-sm ml-3 font-normal leading-6 sm:d-none">
 Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <span className='inline flex items-center'>
 <a href='' className='underline'>privacy policy </a><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
