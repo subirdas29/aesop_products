@@ -36,10 +36,10 @@ body {
 }
 .swiper-scrollbar-drag
 {
-    width: 20% !important; 
+    /* width: 100% !important;  */
     background: rgba(0,0,0,0.75)!important;
     /* width: 300px !important;  */
-    /* position: static !important; */
+    position: static !important;
     
 }
 
@@ -48,14 +48,14 @@ body {
 {
     
     background: #7c877f !important;
-    height: 2px !important;
-    /* bottom: 0 !important; */
-    /* top: 100% !important; */
-    /* margin: 10px 0; */
-    /* position: absolute !important; */
+    height: 1px !important;
+    bottom: 0 !important; 
+    top: 100% !important; 
+    margin: 10px 0;
+    position: absolute !important;
     z-index: 50px !important;
-    /* margin-right: 80px !important; 
-    margin-left:  80px !important; */
+     margin-right: 80px !important; 
+    margin-left:  80px !important;
     margin-top: 50px;
 }
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {

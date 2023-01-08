@@ -7,11 +7,11 @@ import img2 from '../../../assets/Images/SecondSliderImages/Aesop_HK_Store_IFC_I
 import img3 from '../../../assets/Images/SecondSliderImages/Aesop_Harbour_City_II_Hero_Bleed_Desktop_2880x1620px.png';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import "swiper/css/navigation";
 
-import "./StoreLocator.module.css";
+import styles from "./StoreLocator.module.css";
 
 // import required modules
 import { Navigation, Scrollbar } from "swiper";
@@ -36,7 +36,7 @@ const StoreLocator = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center mt-8 lg:mt-0 ml-10 lg:w-7/12 ">
-            <Swiper
+            <Swiper className = {styles}
         slidesPerView={1}
         // centeredSlides={false}
         slidesPerGroupSkip={1}
@@ -51,7 +51,7 @@ const StoreLocator = () => {
         
        
         modules={[ Scrollbar, Navigation,]}
-        className="mySwiper"
+        // className="mySwiper"
       >
         <SwiperSlide>
           <img src={img1}/>

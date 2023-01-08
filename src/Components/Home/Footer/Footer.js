@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight,FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return (
         <div>
@@ -11,61 +11,173 @@ const Footer = () => {
             </div>
 				<div className='flex items-start'>
                 <input type="checkbox"  className="mr-4 flex mt-1 bg-transparent" />
-                <span className="text-sm font-normal">
+                <span className="text-sm font-normal leading-6">
 Subscribe to receive communications from Aesop about our products and services. By subscribing, you confirm you have read and accept our <a href='' className='hover:underline'>privacy policy</a> </span>
                 </div>
 
                 <div className='mt-20 mr-6'>
                  <p className='mb-6'>Sustainability</p>
                  <div className='border border-1 '></div>
-                 <p className='mt-6'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
+                 <p className='mt-6 leading-6'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
                 </div>
 			
 		</div>
-		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Product</h3>
+		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
+			<div className="space-y-3 px-6">
+				<h3 className="tracking-wide uppercase dark:text-gray-50">Orders and support</h3>
+				<div className='border border-1 '></div>
 				<ul className="space-y-1">
-					<li>
-						<a rel="noopener noreferrer" href="#">Features</a>
+					<li className='pt-2'>
+						<a rel="noopener noreferrer" href="#">Contact us</a>
+					</li>
+					<li className='py-2 flex items-center' >
+						<a rel="noopener noreferrer" href="#" className='mr-1' >FAQs 
+</a>
+<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+					</li>
+					<li className='pb-2 flex items-center' >
+						<a rel="noopener noreferrer" href="#" className='mr-1' >Shipping 
+</a>
+<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+					</li>
+					<li className='pb-2 flex items-center' >
+						<a rel="noopener noreferrer" href="#" className='mr-1' >Returns
+</a>
+<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+				</li>
+					<li className='pb-2'>
+						<a rel="noopener noreferrer" href="#">Order history</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Integrations</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">Pricing</a>
-					</li>
-					<li>
-						<a rel="noopener noreferrer" href="#">FAQ</a>
+						<a rel="noopener noreferrer" href="#">Terms and conditions</a>
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3">
-				<h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
+			<div className="space-y-3 px-6">
+				<h3 className="tracking-wide uppercase dark:text-gray-50">Services</h3>
+				<div className='border border-1 '></div>
 				<ul className="space-y-1">
-					<li>
-						<a rel="noopener noreferrer" href="#">Privacy</a>
+					<li className='pt-2'>
+						<a rel="noopener noreferrer" href="#">Live assistance</a>
+					</li>
+					<li className='py-2' >
+						<a rel="noopener noreferrer" href="#">Corporate gifts</a>
+					</li>
+					<li className='pb-2' >
+						<a rel="noopener noreferrer" href="#">Facial appointments</a>
+					</li>
+					<li className='pb-2' >
+						<a rel="noopener noreferrer" href="#">Click and Collect</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Terms of Service</a>
+						<a rel="noopener noreferrer" href="#">Video consultation</a>
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3">
-				<h3 className="uppercase dark:text-gray-50">Developers</h3>
+			<div className="space-y-3 px-6">
+				<h3 className="uppercase dark:text-gray-50">Location preferences</h3>
+				<div className='border border-1 '></div>
 				<ul className="space-y-1">
-					<li>
-						<a rel="noopener noreferrer" href="#">Public API</a>
+					<li className='pt-2'>
+						<a rel="noopener noreferrer" href="#">Shipping:</a>
+					</li>
+					<li className='py-2 underline'>
+						<a rel="noopener noreferrer" href="#">Hong Kong SAR, China</a>
+					</li>
+					<li className='pt-4 pb-2'>
+						<a rel="noopener noreferrer" href="#">Language:</a>
+					</li>
+					<li className='underline'>
+						<a rel="noopener noreferrer" href="#">English</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Documentation</a>
+						<a rel="noopener noreferrer" href="#">繁體中文</a>
 					</li>
 					<li>
-						<a rel="noopener noreferrer" href="#">Guides</a>
+						<a rel="noopener noreferrer" href="#">简体中文</a>
 					</li>
 				</ul>
 			</div>
-			<div className="space-y-3">
+			<div className="space-y-3 px-6">
+				<h3 className="uppercase dark:text-gray-50">About</h3>
+				<div className='border border-1 '></div>
+				<ul className="space-y-1">
+				<li className='pt-2'>
+						<a rel="noopener noreferrer" href="#">Our story</a>
+					</li>
+					<li className='py-2' >
+						<a rel="noopener noreferrer" href="#">Foundation</a>
+					</li>
+					<li className='pb-2' >
+						<a rel="noopener noreferrer" href="#">Careers</a>
+					</li>
+					<li className='pb-2' >
+						<a rel="noopener noreferrer" href="#">Privacy policy</a>
+					</li>
+					<li className='pb-2'>
+						<a rel="noopener noreferrer" href="#">Accessibility</a>
+					</li>
+					<li>
+						<a rel="noopener noreferrer" href="#">Cookie Policy</a>
+					</li>
+				</ul>
+
+
+
+
+
+			</div>
+			<div className="space-y-3 px-6">
+				<h3 className="uppercase dark:text-gray-50">Social media</h3>
+				<div className='border border-1 '></div>
+				<ul className="space-y-1">
+				<li className='pt-2 flex items-center'>
+						<a rel="noopener noreferrer" href="#" className='mr-1'>Instagram </a>
+					
+					<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</li>
+				<li className='pt-2 flex items-center'>
+						<a rel="noopener noreferrer" href="#" className='mr-1'>Twitter</a>
+					
+					<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</li>
+				<li className='pt-2 flex items-center'>
+						<a rel="noopener noreferrer" href="#" className='mr-1'>LinkedIn</a>
+					
+					<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</li>
+				<li className='pt-2 flex items-center'>
+						<a rel="noopener noreferrer" href="#" className='mr-1'>WeChat</a>
+					
+					<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</li>
+				<li className='pt-2 flex items-center'>
+						<a rel="noopener noreferrer" href="#" className='mr-1'>Weibo</a>
+					
+					<svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3.5 h-3.5 text-white">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+</svg>
+</li>
+			
+				
+					
+				</ul>
+			</div>
+			{/* <div className="space-y-3">
 				<div className="uppercase dark:text-gray-50">Social media</div>
 				<div className="flex justify-start space-x-3">
 					<a rel="noopener noreferrer" href="#" title="Facebook" className="flex items-center p-1">
@@ -84,10 +196,15 @@ Subscribe to receive communications from Aesop about our products and services. 
 						</svg>
 					</a>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	</div>
+	<div className='flex'>
 	<div className="py-6 text-sm text-center dark:text-gray-400">© 1968 Company Co. All rights reserved.</div>
+	<div>
+		<FaInstagram/>
+	</div>
+	</div>
 </footer>
         </div>
     );
