@@ -26,10 +26,10 @@ const Navbar = () => {
       text-gray-800'>
         
       </div> */}
-        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white z-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-6000 ease-in ${open ? 'top-[180px] ':'top-[-600px]'}`}>
+        <ul className={`md:flex md:items-center md:pb-0 pb-12  absolute md:static bg-white z-50 left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-6000 ease-in ${open ? 'top-[175px] ':'top-[-600px]'} `}>
         {
           Links.map((link)=>(
-            <li key={link.name} className='md:ml-7 text-sm font-medium md:my-0 my-7 sm:block md:hidden lg:block xl:block'>
+            <li key={link.name} className=' md:border-0 md:ml-7 text-sm font-medium md:my-0 my-7  sm:block md:hidden lg:block xl:block'>
               <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
             </li>
           ))
@@ -70,7 +70,17 @@ const Navbar = () => {
     
      
       <div onClick={()=>setOpen(!open)}>
-      <ion-icon name={open ? 'close':'menu'} className='text-sm'  ></ion-icon>
+    
+        {
+          open ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+        :<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+        </svg>
+        }
+
+
       </div>
 </div>
       </div>
