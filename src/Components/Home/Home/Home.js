@@ -1,4 +1,5 @@
 import React from 'react';
+import ASuperlativeSelection from '../ASuperlativeSelection/ASuperlativeSelection';
 import Banner from '../Banner/Banner';
 import ClickAndCollect from '../ClickAndCollect/ClickAndCollect';
 import CorporateGifts from '../CorporateGifts/CorporateGifts';
@@ -24,6 +25,7 @@ const Home = () => {
             <CorporateGifts></CorporateGifts>
             <FirstSliderSection></FirstSliderSection>
             <StoreLocator></StoreLocator>
+            <ASuperlativeSelection></ASuperlativeSelection>
             <Footer></Footer>
         </div>
     );
