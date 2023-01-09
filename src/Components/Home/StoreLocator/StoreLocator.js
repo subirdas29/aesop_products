@@ -11,13 +11,13 @@ import img3 from '../../../assets/Images/SecondSliderImages/Aesop_Harbour_City_I
 // import "swiper/css/pagination";
 // import "swiper/css/navigation";
 
-import styles from "./StoreLocator.module.css";
+// import styles from "./StoreLocator.module.css";
 
 // import required modules
 import { Navigation, Scrollbar } from "swiper";
 
 import { FaArrowRight } from 'react-icons/fa';
-
+import './styles.css'
 
 const StoreLocator = () => {
     return (
@@ -36,15 +36,11 @@ const StoreLocator = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center mt-8 lg:mt-0 ml-10 lg:w-7/12 ">
-            <Swiper className = {styles}
+            <Swiper
         slidesPerView={1}
         // centeredSlides={false}
         slidesPerGroupSkip={1}
-        // grabCursor={true}
-        // loop={true}
-        // keyboard={{
-        //   enabled: true,
-        // }}
+        speed={700}
      
         scrollbar={true}
         navigation={true}

@@ -10,10 +10,11 @@ import img5 from '../../../assets/Images/FirstSliderImages/product-5.png';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/scrollbar";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-import firstsliderstyle from "./FirstSliderSection.module.css";
+// import firstsliderstyle from "./FirstSliderSection.module.css";
+import './styles.css'
 
 // import required modules
 import { Keyboard, Scrollbar, Navigation } from "swiper";
@@ -50,7 +51,7 @@ export default function FirstSliderSection() {
         navigation={true}
       
         modules={[Keyboard, Scrollbar, Navigation]}
-        className={firstsliderstyle}
+     
       >
         <SwiperSlide>
           <img src={img1}/>
