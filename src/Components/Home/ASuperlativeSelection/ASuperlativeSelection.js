@@ -27,7 +27,7 @@ export default function ASuperlativeSelection() {
   return (
     <>
     
-     <Swiper className="mb-20 "
+     <Swiper className="my-24 "
         slidesPerView={3.25}
         centeredSlides={false}
         spaceBetween={10}
@@ -67,7 +67,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} />
+          <img src={img2} className='w-[200px] h-[500px]' />
           <p>
           Geranium Leaf Body Cleanser
           </p>
@@ -76,7 +76,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} />
+          <img src={img3} className='w-[200px] h-[500px]'/>
           <p>
           Geranium Leaf Body Balm
           </p>
@@ -85,7 +85,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} />
+          <img src={img4} className='w-[200px] h-[500px]'/>
           <p>
           Shampoo
           </p>
@@ -94,7 +94,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5}/>
+          <img src={img5} className='w-[200px] h-[500px]'/>
           <p>
          Conditioner
           </p>

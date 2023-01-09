@@ -12,7 +12,7 @@ const GiftFinderSection = () => {
   Your browser does not support the video tag.
 </video>
             </div>
-            <div className="flex flex-col justify-top p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+            <div className="flex flex-col justify-top p-8 text-center rounded-sm  lg:max-w-md xl:max-w-lg lg:text-left">
                 <h1 className="text-3xl font-bold leading-none sm:text-2xl">The Gift Finder
                 </h1>
                 <p className="mt-6 mb-8 text-lg sm:mb-12">For greater ease of navigation, the Gift Finder provides an opportunity to browse formulations by recipient, function and price.

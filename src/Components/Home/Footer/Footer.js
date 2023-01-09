@@ -21,14 +21,14 @@ Subscribe to receive communications from Aesop about our products and services. 
 	 </span>
                 </div>
 
-                <div className='mt-[138px] sm:hidden lg:block space-y-3'>
+                <div className='mt-[138px] hidden lg:block xl:block space-y-3'>
                  <p className=''>Sustainability</p>
                  <div className='border border-1 '></div>
                  <p className=' leading-6'>All Aesop products are vegan, and we do not test our formulations or ingredients on animals. We are Leaping Bunny approved and a Certified B Corporation. Learn more</p>
                 </div>
 			
 		</div>
-		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-3 sm:mt-16 lg:mt-10">
+		<div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-3/5 sm:grid-cols-3 sm:mt-16 lg:mt-10 mx-6">
 			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6">
 				<h3 className="dark:text-gray-50">Orders and support</h3>
 				<div className='border border-1 '></div>
@@ -144,7 +144,7 @@ Subscribe to receive communications from Aesop about our products and services. 
 
 
 			</div>
-			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6 sm:hidden lg:block">
+			<div className="space-y-3 lg:pl-2 lg:pr-4 sm:pl-6 hidden lg:block xl:block">
 				<h3 className="dark:text-gray-50 ">Social media</h3>
 				<div className='border border-1 '></div>
 				<ul className="space-y-1">

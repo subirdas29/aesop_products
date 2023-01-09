@@ -4,7 +4,7 @@ import video2 from '../../../assets/Videos/FirstCardSectionVideos/Aesop_Gift_Nos
 
 const FirstCardSection = () => {
     return (
-        <div className='flex justify-center flex-col md:flex-row mx-10 md:gap-6 md:mx-20 my-32'>
+        <div className='flex justify-center flex-col md:flex-row mx-10 md:gap-6 md:mx-20 mt-24'>
             <div className="w-full text-black">
             <video muted autoPlay loop>
   <source src={video1} type="video/mp4"/>

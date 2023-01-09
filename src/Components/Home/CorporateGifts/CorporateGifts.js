@@ -5,9 +5,9 @@ import { FaArrowRight } from 'react-icons/fa';
 const CorporateGifts = () => {
     return (
         <section className=" dark:text-black">
-        <div className="flex flex-col justify-center py-6  mx-auto sm:py-12 lg:py-24 lg:flex-row xl:flex-row lg:justify-between">
+        <div className="flex flex-col justify-center py-6   sm:py-12  lg:py-16 lg:flex-row xl:flex-row lg:justify-between">
             
-            <div className="flex flex-col justify-top py-6 pl-20 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+            <div className="flex flex-col justify-top py-6 lg:pl-20 px-8 text-center rounded-sm w-full lg:max-w-md xl:max-w-lg lg:text-left">
                 <p>Tokens of appreciation</p>
                 <h1 className="text-3xl font-bold leading-none sm:text-2xl my-4">Corporate gifts
                 </h1>
