@@ -49,6 +49,14 @@ export default function ASuperlativeSelection() {
             slidesPerView: 1,
             slidesPerGroup: 1,
           },
+          280: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          100: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
           
         }}
         scrollbar={true}
@@ -67,7 +75,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} className='w-[200px] h-[500px]' />
+          <img src={img2}  />
           <p>
           Geranium Leaf Body Cleanser
           </p>
@@ -76,7 +84,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} className='w-[200px] h-[500px]'/>
+          <img src={img3} />
           <p>
           Geranium Leaf Body Balm
           </p>
@@ -85,7 +93,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} className='w-[200px] h-[500px]'/>
+          <img src={img4} />
           <p>
           Shampoo
           </p>
@@ -94,7 +102,7 @@ For fragrant, soft skin from neck to toe
           </p>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} className='w-[200px] h-[500px]'/>
+          <img src={img5} />
           <p>
          Conditioner
           </p>

@@ -99,6 +99,8 @@ body {
   .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
     transform: translateX(-55%);
   }
+  
 }
+
 
   

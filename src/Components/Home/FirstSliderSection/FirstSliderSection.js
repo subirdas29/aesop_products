@@ -45,6 +45,14 @@ export default function FirstSliderSection() {
             slidesPerView: 1,
             slidesPerGroup: 1,
           },
+          280: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
+          100: {
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+          },
           
         }}
         scrollbar={true}
